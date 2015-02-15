@@ -35,5 +35,3 @@ for bottle in bottles:
 	elif bottle < 2:
 		print "{0} bottle of beer on the wall, {0} bottle of beer ...".format(bottle)
 		print "Take one down, pass it around, 0 bottles of beer on the wall."
-
-# print "Take one down, pass it around, {0} bottle of beer on the wall."
