@@ -105,7 +105,7 @@ jelly = 4
 #		Continue from the fourth goal, but this time if you don't have enough ingredients, print a message that tells you which ones you're missing.
 
 sandwich = bread + bread + pb + jelly
-while sandwich >= 1:
+if sandwich >= 1:
 	sandwich = bread - bread - pb - jelly
 
 	if (bread/2) >= 2 and pb >= 1 and jelly >= 1:
