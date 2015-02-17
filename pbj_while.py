@@ -44,13 +44,13 @@ while bread >= 2 and pb > 0 and jelly > 0:
 # All done; I ran out of jelly.
 
 if bread == 0 and pb == 0 and jelly == 0:
-	print "All done, we ran out of ingredients."
+	print "All done, I ran out of ingredients."
 elif bread <= 1 and pb >= 1 and jelly >= 1:
-	print "All done, we ran out of bread."
+	print "All done, I ran out of bread."
 elif pb <= 1 and bread >= 2 and jelly >= 1:
-	print "All done, we ran out of peanut butter."
+	print "All done, I ran out of peanut butter."
 elif jelly <= 1 and bread >= 2 and pb >= 1:
-	print "You ran out of jelly but you can make a peanut butter sandwich."
+	print "I ran out of jelly but I can make a peanut butter sandwich."
 
-print "We had enough ingredients to make {0} sandwiches.".format(sandwiches)
+print "I had enough ingredients to make {0} sandwiches.".format(sandwiches)
 
